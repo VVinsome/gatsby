@@ -81,7 +81,10 @@ const typography = new Typography(fairyGateTheme)
 export const { scale, rhythm, options } = typography
 export default typography
 ```
-
+Then declare module in utils/typography.d.ts
+```javascript:title=src/utils/typography.d.ts
+ declare module "typography-theme-fairy-gates"
+```
 4. Start the development server.
 
 ```shell
